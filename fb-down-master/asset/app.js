@@ -10,7 +10,7 @@ const getDownloadLink = async () => {
 
   const formData = new FormData()
   formData.append('url', vid_url)
-  let response = await fetch('app/main.php', {
+  let response = await fetch('https://cdn.statically.io/gh/rulnoveid/CodeBlog/main/fb-down-master/app/main.php', {
     method: 'POST',
     body: formData
   })
