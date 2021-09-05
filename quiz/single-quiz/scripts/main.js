@@ -52,8 +52,8 @@ function handleAnswers(quiz, question, no, correct) {
 
 window.onload = function() {
     quiz = new Quiz('quiz', [
-        '42',
-        'b',
-        ['b', 'c', 'd']
+        'd',
+        'c',
+        'e'
     ]);
 };
