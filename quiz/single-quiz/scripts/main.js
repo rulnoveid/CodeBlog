@@ -54,6 +54,8 @@ window.onload = function() {
     quiz = new Quiz('quiz', [
         'd',
         'c',
-        'e'
+        'a',
+        'a',
+        'c',
     ]);
 };
