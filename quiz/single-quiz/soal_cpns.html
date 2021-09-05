@@ -1,0 +1,51 @@
+<!-- Try this example at https://alpsquid.github.io/quizlib -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <script type="text/javascript" src="scripts/quizlib.1.0.1.min.js"></script>
+        <!-- Dev: <script type="text/javascript" src="../../src/quizlib.js"></script>-->
+        <script type="text/javascript" src="scripts/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/quizlib.min.css" media="screen">
+        <!-- Dev: <link rel="stylesheet" type="text/css" href="../../src/quizlib.css" media="screen">-->
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" media="screen">
+        
+        <title>Quizlib Example</title>
+    </head>
+
+    <body>
+        <!-- Quiz Results -->
+        <div id="quiz-result" class="card">
+            You Scored <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br/>
+        </div>
+        
+        <!-- Quiz Container -->
+        <div id="quiz">
+            <!-- Question 1 -->
+            <div class="card quizlib-question">
+                <div class="quizlib-question-title">1. Makna yang terkandung pada nilai patriotisme dalam kehidupan berbangsa dan bernegara adalah ….</div>
+                <div class="quizlib-question-answers">
+                    <ul>
+                        <li><label><input type="radio" name="q2" value="a"> Selalu membela apapun yang dilakukan negara</label></li>
+                        <li><label><input type="radio" name="q2" value="b"> Selalu berjuang untuk kepentingan negara</label></li>
+						<li><label><input type="radio" name="q2" value="c"> Selalu menentang kebijakan pemerintah yang tidak dikehendaki rakyat</label></li>
+						<li><label><input type="radio" name="q2" value="d"> Rela berkorban untuk kepentingan bangsa dan negara</label></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Question 1 -->
+            <div class="card quizlib-question">
+                <div class="quizlib-question-title">1. Your enemy's father...</div>
+                <div class="quizlib-question-answers">
+                    <ul>
+                        <li><label><input type="radio" name="q2" value="a"> is a hamster</label></li>
+                        <li><label><input type="radio" name="q2" value="b"> smells of elderberries</label></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Answer Button -->
+            <button type="button" onclick="showResults();">Check Answers</button>
+        </div>
+    </body>
+</html>
