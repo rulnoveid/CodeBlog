@@ -95,7 +95,7 @@
                     );
                   } else {
                     $('#data').append(
-                      `<textarea>Could not get direct link for: ${idArray[idIndex]}`
+                      `<li>Could not get direct link for: ${idArray[idIndex]}`
                     );
                   }
                   idIndex++;
