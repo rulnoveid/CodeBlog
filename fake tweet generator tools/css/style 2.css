@@ -8,8 +8,6 @@ main {
   align-items: flex-start;
 }
 main .form {
-  background-color: white;
-  border: 1px #dde7ef solid;
   border-radius: 8px;
   padding: 24px;
   flex: 1;
@@ -159,7 +157,7 @@ main .form .form-control.upload {
 main .form .form-control.upload label {
   display: inline-block;
   position: relative;
-  border-radius: 99px;
+  border-radius: 5px;
   background-color: #1da1f2;
   color: #fff;
   font-weight: 400;
@@ -205,7 +203,7 @@ main .form .form-control.upload .file-name.show {
 }
 main .form .form-control.upload .reset {
   border: 1px #1da1f2 solid;
-  border-radius: 99px;
+  border-radius: 5px;
   background-color: white;
   color: #1da1f2;
   font: inherit;
@@ -256,14 +254,9 @@ main .form .form-control.upload .reset {
   }
 }
 main .tweet-desk {
-  background-color: white;
   border: 1px #dde7ef solid;
   border-radius: 8px;
   padding: 24px;
-  margin-left: 16px;
-  position: sticky;
-  top: 16px;
-  z-index: 10;
 }
 main .tweet-desk h2 {
   font-size: 22px;
