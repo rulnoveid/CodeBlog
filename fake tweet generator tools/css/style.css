@@ -210,7 +210,7 @@ main .form .form-control.upload {
 main .form .form-control.upload label {
   display: inline-block;
   position: relative;
-  border-radius: 99px;
+  border-radius: 5px;
   background-color: #1da1f2;
   color: #fff;
   font-weight: 400;
@@ -247,7 +247,7 @@ main .form .form-control.upload .file-name {
   bottom: -29px;
   background-color: #eef3f7;
   color: #0f1419;
-  border-radius: 99px;
+  border-radius: 5px;
   padding: 4px 16px;
   display: none;
 }
@@ -256,7 +256,7 @@ main .form .form-control.upload .file-name.show {
 }
 main .form .form-control.upload .reset {
   border: 1px #1da1f2 solid;
-  border-radius: 99px;
+  border-radius: 5px;
   background-color: white;
   color: #1da1f2;
   font: inherit;
@@ -519,7 +519,7 @@ main .tweet-desk .btn {
   display: block;
   border: none;
   border-radius: 6px;
-  border-radius: 99px;
+  border-radius: 5px;
   background-color: #1da1f2;
   color: white;
   font: inherit;
