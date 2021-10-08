@@ -1,6 +1,6 @@
 //API Kemenkes
  $.ajax({
-     url: 'https://api.kawalcorona.com/indonesia',
+     url: 'https://data.covid19.go.id/public/api/update.json',
      type: 'get',
     dataType: 'json',
      crossDomain: true,
@@ -49,42 +49,42 @@
 
 
 
-// jQuery.support.cors = true;
-// $.ajax({
-//     url: "https://data.covid19.go.id/public/api/update.json",
-//     type: "GET",
-//     timeout: 30000,
-//     dataType: "json", // "xml", "json"
-//     success: function (data) {
-//         // show text reply as-is (debug)
-//         alert(data);
+jQuery.support.cors = true;
+$.ajax({
+    url: "https://data.covid19.go.id/public/api/update.json",
+    type: "GET",
+     timeout: 30000,
+    dataType: "json", // "xml", "json"
+     success: function (data) {
+		show text reply as-is (debug)
+         alert(data);
 
-//         // show xml field values (debug)
-//         //alert( $(data).find("title").text() );
+         // show xml field values (debug)
+         //alert( $(data).find("title").text() );
 
-//         // loop JSON array (debug)
-//         //var str="";
-//         //$.each(data.items, function(i,item) {
-//         //  str += item.title + "\n";
-//         //});
-//         //alert(str);
-//     },
-//     error: function (jqXHR, textStatus, ex) {
-//         alert(textStatus + "," + ex + "," + jqXHR.responseText);
-//     }
-// });
+         // loop JSON array (debug)
+        //var str="";
+         //$.each(data.items, function(i,item) {
+         //  str += item.title + "\n";
+         //});
+         //alert(str);
+     },
+    error: function (jqXHR, textStatus, ex) {
+         alert(textStatus + "," + ex + "," + jqXHR.responseText);
+     }
+ });
 
 
-// $.getJSON('https://data.covid19.go.id/public/api/update.json?callback=?', function (data) {
-//     console.log(data);
-// });
+ $.getJSON('https://data.covid19.go.id/public/api/update.json?callback=?', function (data) {
+     console.log(data);
+ });
 
-// const xhr = new XMLHttpRequest();
-// xhr.open('GET', 'https://data.covid19.go.id/public/api/update.json');
-// xhr.responseType = 'json';
-// xhr.onload = function (e) {
-//     if (this.status == 200) {
-//         console.log('response', this.response); // JSON response  
-//     }
-// };
-// xhr.send();
+ const xhr = new XMLHttpRequest();
+ xhr.open('GET', 'https://data.covid19.go.id/public/api/update.json');
+ xhr.responseType = 'json';
+ xhr.onload = function (e) {
+     if (this.status == 200) {
+         console.log('response', this.response); // JSON response  
+     }
+ };
+ xhr.send();
