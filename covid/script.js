@@ -1,6 +1,6 @@
 //API Kemenkes
  $.ajax({
-     url: 'https://data.covid19.go.id/public/api/update.json',
+     url: 'https://api.kawalcorona.com/indonesia',
      type: 'get',
     dataType: 'json',
      crossDomain: true,
