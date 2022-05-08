@@ -1,0 +1,70 @@
+<!--Form Code Start Here-->
+<div class="widget-title">
+</div>
+<div class="contact-form-widget">
+<div class="form">
+<form action="https://formsubmit.co/Email_Kamu" method="POST" name="contact-form" onsubmit="return submitUserForm();" >
+<input name="_template" type="hidden" value="table" />
+<input name="_subject" type="hidden" value="Preview Inputekno.Com Submission!" />
+<input name="_captcha" type="hidden" value="false" />
+<input name="_next" type="hidden" value="https://preview.inputekno.com/p/thanks-you.html" />
+
+<div class='formcolumn1'>
+<input id="ContactForm1_contact-form-name" class="contact-form-name" name="Name" placeholder='Name' size="30" type="text" value="" />
+</div>
+<div class='formcolumn2'>
+<input id="ContactForm1_contact-form-email" name="Email" placeholder='Email' size="30" type="text" value="" />
+</div>
+<div class='formcolumn3'>
+<input id="ContactForm1_contact-form-name" name="Phone" placeholder='Phone' size="30" type="number" value="" />
+</div>
+<div class='formcolumn3'>
+<textarea cols="25" id="contact-form-email-message" name="Message" placeholder='Message' rows="5"></textarea>
+</div>
+<div class='formcolumn4'>
+<button class='button' id="ContactForm1_contact-form-submit" type="submit" value="Send Now">Send Message</button>
+</div>
+
+<div style="max-width: 100%; text-align: center; width: 100%;">
+</div>
+</form>
+<!--Form Code End Here-->
+ 
+<!--reCaptcha Code Begin Here-->
+<div id="g-recaptcha-error"></div>
+<div class="g-recaptcha" data-callback="verifyCaptcha" data-sitekey="your_sitekey"></div>
+<br /><br /><br />  <br /><br /><br /><br /><br /><br />
+<div id="g-recaptcha-error"></div>
+<br /><br /><br />
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<script>
+function submitUserForm() {
+    var response = grecaptcha.getResponse();
+    if(response.length == 0) {
+        document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">Solve below reCAPTCHA.</span>';
+        return false;
+    }
+    return true;
+}
+ 
+function verifyCaptcha() {
+    document.getElementById('g-recaptcha-error').innerHTML = '';
+}
+</script>
+<!--reCaptcha Code Ends Here-->
+</div>
+</div>
+
+<style scoped="" type="text/css">
+#ContactForm1_contact-form-name,#ContactForm1_contact-form-email{display:inline-block;width:100%;height:auto;margin:10px auto;padding:14px;background:#fff;color:#222;border:1px solid rgba(0,0,0,0.08)}
+#contact-form-email-message{width:100%;height:250px;margin:10px auto;padding:14px;background:#fff;color:#222;border:1px solid rgba(0,0,0,0.08)}
+#ContactForm1_contact-form-name:focus,#ContactForm1_contact-form-email:focus,#contact-form-email-message:focus{background:#fff;outline:none;border-color:rgba(0,0,0,0.18)}
+.formcolumn4{position:relative}
+#ContactForm1_contact-form-error-message,#ContactForm1_contact-form-success-message{margin-top:35px}
+form{color:#888}
+.formcolumn1,.formcolumn2{float:left;width:50%}
+.formcolumn1,.formcolumn2{margin:0 0 10px 0;padding:0 10px 0 0}
+.formcolumn2{padding:0 0 0 10px}
+@media only screen and (max-width:768px){.formcolumn1,.formcolumn2{width:100%;padding:0}}
+</style>
