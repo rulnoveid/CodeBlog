@@ -22,7 +22,7 @@ function updateEmails() {
     count = 0;
     let startTime = new Date();
     for (let message of generate(username)) {
-        document.getElementById("emails").value += message + provider + '\r\n';
+        document.getElementById("emails").value += message + provider + '\n';
         count += 1;
         counterLabel.innerText = 'Generated: ' + count;
     }
