@@ -1,6 +1,7 @@
 let counterLabel = document.getElementById("counter");
 let count = 0;
 let username = document.getElementById("username").value;
+let username = document.getElementById("provider").value;
 
 function* generate(email) {
     if (email.length <= 1) {
