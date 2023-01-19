@@ -1,7 +1,7 @@
 let counterLabel = document.getElementById("counter");
 let count = 0;
 let username = document.getElementById("username").value;
-
+let provider = document.getElementById("provider").value;
 
 function* generate(email) {
     if (email.length <= 1) {
@@ -22,7 +22,7 @@ function updateEmails() {
     count = 0;
     let startTime = new Date();
     for (let message of generate(username)) {
-        document.getElementById("emails").value += message + '@gmail.com\r\n';
+        document.getElementById("emails").value += message + provider + '\n';
         count += 1;
         counterLabel.innerText = 'Generated: ' + count;
     }
