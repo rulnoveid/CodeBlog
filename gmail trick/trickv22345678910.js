@@ -18,6 +18,7 @@ function* generate(email) {
 
 function updateEmails() {
     let username = document.getElementById("username").value;
+    let provider = document.getElementById("provider").value;
     document.getElementById("emails").value = '';
     count = 0;
     let startTime = new Date();
