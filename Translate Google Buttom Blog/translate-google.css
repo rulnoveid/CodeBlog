@@ -1,0 +1,53 @@
+
+/* Modif for Inputekno.Com */
+
+body {
+    top: 0 !important;
+}
+.goog-te-gadget-simple:after {
+    content: "";
+    position: relative;
+    height: 100%;
+    width: 50px;
+    padding: 10px;
+    z-index: 2;
+    background: url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M20,5H10.88L10,2H4A2,2 0 0,0 2,4V17A2,2 0 0,0 4,19H11L12,22H20A2,2 0 0,0 22,20V7A2,2 0 0,0 20,5M7.17,14.59A4.09,4.09 0 0,1 3.08,10.5A4.09,4.09 0 0,1 7.17,6.41C8.21,6.41 9.16,6.78 9.91,7.5L10,7.54L8.75,8.72L8.69,8.67C8.4,8.4 7.91,8.08 7.17,8.08C5.86,8.08 4.79,9.17 4.79,10.5C4.79,11.83 5.86,12.92 7.17,12.92C8.54,12.92 9.13,12.05 9.29,11.46H7.08V9.91H11.03L11.04,10C11.08,10.19 11.09,10.38 11.09,10.59C11.09,12.94 9.5,14.59 7.17,14.59M13.2,12.88C13.53,13.5 13.94,14.06 14.39,14.58L13.85,15.11L13.2,12.88M13.97,12.12H13L12.67,11.08H16.66C16.66,11.08 16.32,12.39 15.1,13.82C14.58,13.2 14.21,12.59 13.97,12.12M21,20A1,1 0 0,1 20,21H13L15,19L14.19,16.23L15.11,15.31L17.79,18L18.5,17.27L15.81,14.59C16.71,13.56 17.41,12.34 17.73,11.08H19V10.04H15.36V9H14.32V10.04H12.36L11.18,6H20A1,1 0 0,1 21,7V20Z' fill='%2308102b'/></svg>")
+        center / 12px no-repeat;
+    background-size: 20px 20px;
+}
+.drK .goog-te-gadget-simple:after {
+    content: "";
+    background: url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M20,5H10.88L10,2H4A2,2 0 0,0 2,4V17A2,2 0 0,0 4,19H11L12,22H20A2,2 0 0,0 22,20V7A2,2 0 0,0 20,5M7.17,14.59A4.09,4.09 0 0,1 3.08,10.5A4.09,4.09 0 0,1 7.17,6.41C8.21,6.41 9.16,6.78 9.91,7.5L10,7.54L8.75,8.72L8.69,8.67C8.4,8.4 7.91,8.08 7.17,8.08C5.86,8.08 4.79,9.17 4.79,10.5C4.79,11.83 5.86,12.92 7.17,12.92C8.54,12.92 9.13,12.05 9.29,11.46H7.08V9.91H11.03L11.04,10C11.08,10.19 11.09,10.38 11.09,10.59C11.09,12.94 9.5,14.59 7.17,14.59M13.2,12.88C13.53,13.5 13.94,14.06 14.39,14.58L13.85,15.11L13.2,12.88M13.97,12.12H13L12.67,11.08H16.66C16.66,11.08 16.32,12.39 15.1,13.82C14.58,13.2 14.21,12.59 13.97,12.12M21,20A1,1 0 0,1 20,21H13L15,19L14.19,16.23L15.11,15.31L17.79,18L18.5,17.27L15.81,14.59C16.71,13.56 17.41,12.34 17.73,11.08H19V10.04H15.36V9H14.32V10.04H12.36L11.18,6H20A1,1 0 0,1 21,7V20Z' fill='%2308102b'/></svg>")
+        center / 12px no-repeat;
+    background-size: 20px 20px;
+}
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget-simple img,
+img.goog-te-gadget-icon,
+.goog-te-menu-value span {
+    display: none !important;
+}
+.goog-te-menu-frame {
+    box-shadow: none !important;
+}
+.goog-te-gadget-simple {
+    background-color: transparent !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-radius: 4px;
+}
+#google_translate_element span {
+    display: none !important;
+}
+
+/* css darkmode sesuaikan classnya jika berbeda atau hapus bagian ini */
+.drK .goog-te-gadget-simple {
+    background-color: transparent !important;
+    background: url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g data-name='Google Translate' id='Google_Translate'><g data-name='&lt;Group&gt;' id='_Group_'><path d='M.5,2V18A1.5,1.5,0,0,0,2,19.5H17L10.5.5H2A1.5,1.5,0,0,0,.5,2Z' data-name='&lt;Path&gt;' id='_Path_' style='fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round' transform='translate(1.0000,1.4000)'/><path d='M.5,2V18A1.5,1.5,0,0,0,2,19.5H17L10.5.5H2A1.5,1.5,0,0,0,.5,2Z' data-name='&lt;Path&gt;' id='_Path_' style='fill:none;stroke:%23d2d0d0;stroke-linecap:round;stroke-linejoin:round'/><path d='M12,4.5H22A1.5,1.5,0,0,1,23.5,6V22A1.5,1.5,0,0,1,22,23.5H13.5l-1.5-4' data-name='&lt;Path&gt;' id='_Path_2' style='fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round' transform='translate(1.0000,1.4000)'/><path d='M12,4.5H22A1.5,1.5,0,0,1,23.5,6V22A1.5,1.5,0,0,1,22,23.5H13.5l-1.5-4' data-name='&lt;Path&gt;' id='_Path_2' style='fill:none;stroke:%23d2d0d0;stroke-linecap:round;stroke-linejoin:round'/><line data-name='&lt;Path&gt;' id='_Path_3' style='fill:none;stroke:%23d2d0d0;stroke-linecap:round;stroke-linejoin:round' x1='17' x2='13.5' y1='19.5' y2='23.5'/><line data-name='&lt;Path&gt;' id='_Path_4' style='fill:none;stroke:%23d2d0d0;stroke-linecap:round;stroke-linejoin:round' x1='14.5' x2='21.5' y1='10.5' y2='10.5'/><line data-name='&lt;Path&gt;' id='_Path_5' style='fill:none;stroke:%23d2d0d0;stroke-linecap:round;stroke-linejoin:round' x1='17.5' x2='17.5' y1='9.5' y2='10.5'/><path d='M20,10.5c0,1.1-1.77,4.42-4,6' data-name='&lt;Path&gt;' id='_Path_6' style='fill:none;stroke:%23d2d0d0;stroke-linecap:round;stroke-linejoin:round'/><path d='M16,13c.54,1.33,4,4.5,4,4.5' data-name='&lt;Path&gt;' id='_Path_7' style='fill:none;stroke:%23d2d0d0;stroke-linecap:round;stroke-linejoin:round'/><path d='M10.1,7.46a4,4,0,1,0,1.4,3h-4' data-name='&lt;Path&gt;' id='_Path_8' style='fill:none;stroke:%23d2d0d0;stroke-linecap:round;stroke-linejoin:round'/></g></g></svg>")
+        center / 12px no-repeat;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    background-size: 20px 20px;
+}

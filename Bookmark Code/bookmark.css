@@ -1,0 +1,40 @@
+/* bookmark source igniel.com */
+/* Modif for Inputekno.Com */
+
+.ignielBookmarkPost input:checked~label path{fill:var(--linkC);}
+#ignielBookmark,.ignielBookmarkPost input{display:none;}
+.ignielBookmark i{background-color:#e6e6e6;border-radius:7px;font-size:.75rem;font-style:normal;line-height:normal;padding:0.1rem;right:43%;top:-2px;font-size:11px;line-height:18px;padding:0 5px;border-radius:10px;font-size:11px;line-height:18px;padding:0 5px;border-radius:10px;background:#e6e6e6;color:var(--bodyC);position:absolute;top:-5px;right:0;z-index:2;}
+.bookmark-wrapper{border:1px solid var(--contentL);border-radius:7px;max-height:80vh;min-width:320px;max-width:480px;opacity:0;overflow:auto;right:0;top:2rem;transform:translateY(1rem);-webkit-transform:translateY(1rem);visibility:hidden;width:max-content;box-shadow: 4px 5px 5px 0px rgb(10 10 10 / 16%);}
+.bookmark-title{border-bottom:1px solid #ededed;font-weight:800;position:sticky;position:-webkit-sticky;top:0;}
+.bm-title{line-height:1.5em;}
+.bm-title a{color:inherit;}
+.bm-title a:hover{text-decoration:none;}
+.bm-thumb{flex:0 0 85px;line-height:0;}
+.bm-thumb img{background-color:#efefef;border-radius:7px;object-fit:cover;height:auto;max-height:100%!important;width:100%;max-width:100%!important;}
+.bm-delete{margin-left:auto;white-space:nowrap;}
+.bm-delete svg{height:1.25rem;width:1.25rem;}
+.bm-delete path{fill:none;stroke:var(--iconC);}
+.bookmark-inner ul{flex-direction:column;}
+.bookmark-wrapper,.bookmark-title{background-color:var(--bodyB);}
+.bookmark-inner,.bookmark-title{padding:.75rem 1.25rem;}
+.bookmark-inner ul,.bookmark-inner li,.ignielBookmarks li,.ignielBookmarkPost,.ignielBookmarkPost label{display:-webkit-box;display:-webkit-flex;display:flex;gap:1rem;list-style-type:none;margin:0;padding:0;}
+li.bm-more{border-top:1px solid #ededed;justify-content:center;padding:.75rem .75rem 0;}
+.ignielBookmarks ul{display:grid;gap:1.5rem;grid-template-columns:repeat(2,1fr);margin:0;padding:0;}
+.ignielBookmarks li{border:1px solid var(--contentL);border-radius:7px;padding:.75rem;}
+.ignielBookmarkPost,.ignielBookmarkPost label{align-items:center;justify-content:center;}
+.ignielBookmarkPost svg{height:1.25rem;width:1.25rem;}
+.ignielBookmark label,.ignielBookmarkPost label,.bm-delete{cursor:pointer;}
+.ignielBookmark i,.bookmark-wrapper{position:absolute;}
+.ignielBookmark path,.bookmark-wrapper{transition:all .2s ease;}
+#ignielBookmark:checked~.bookmark-wrapper{opacity:1;transform:translateY(0);-webkit-transform:translateY(0);visibility:visible;z-index:4}
+.bookmark-loading{padding:.5rem;text-align:center;}
+
+@media screen and (max-width:568px) {
+#ignielBookmark:checked~.bookmark.fCls{background:rgba(0,0,0,.2);-webkit-backdrop-filter:saturate(180%) blur(10px);backdrop-filter:saturate(180%) blur(10px);opacity:1;visibility:visible;z-index:3} 
+.ignielBookmarks ul{gap:1rem;grid-template-columns:repeat(1,1fr);}
+.closeBm:before{content:attr(aria-label);position:absolute;top:12px;font-weight:800;right:25px;}
+.bookmark-wrapper{border-radius:7px 7px 0 0;width:100%;right:0;left:0;bottom:0;top:auto;position:fixed;min-height:100px;}
+}
+
+.drK .bookmark-wrapper,.drK .bookmark-title,.drK .ignielBookmarks li{background-color:#2d2d30;border-color:rgba(255,255,255,.15);}
+.drK .bm-delete path{fill:none;stroke:var(--darkT);}
