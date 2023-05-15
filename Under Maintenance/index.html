@@ -1,0 +1,41 @@
+<!-- Maintenace Mode -->
+<b:if cond='data:blog.title == &quot;PotreTekno maintenance&quot; and !data:view.isPreview and !data:view.isLayoutMode'>
+<b:tag name='head'>
+<title>Maintenance Potretekno</title>
+<meta content='width=device-width,initial-scale=1' name='viewport'/>
+<b:include data='blog' name='all-head-content'/>
+<link href='//use.fontawesome.com/releases/v5.12.1/css/all.css' rel='stylesheet'/>
+<link href='//cdn.inputekno.com/CodeBlog/Under%20Maintenance/under.min.css' rel='stylesheet'/>
+</b:tag>
+<b:tag name='body'>
+<!-- CSS Maintenace Mode -->
+<style>/*<![CDATA[*/
+.wave{background:#fff;/* color de las ondas */}
+.under{background-color:#fdd929;/* color del fondo */}
+.under__content{color:#2C3E50;font-family:'Roboto',sans-serif;font-weight:bold}
+.under__text{color:#2C3E50}
+/*]]>*/
+</style>
+<!-- CSS Maintenace Mode End -->
+<div class='under'>
+  <header class='under__content'>
+    <h1 class='under__title'>Maintenance!</h1>
+    <div class='under__text'>PotreTekno sedang dalam Proses Pemeliharaan, kami akan segera kembali!</div>
+  </header>
+  <footer class='under__footer'>
+    <a href='//facebook.com/inputekno.id' target='_blank'><i class='fab fa-facebook-f'/></a>
+    <a href='//twitter.com/inputekno' target='_blank'><i class='fab fa-twitter'/></a>
+    <a href='//github.com/#' target='_blank'><i class='fab fa-github'/></a>
+    <a href='//inputekno.com/' target='_blank'><i class='fas fa-external-link-alt'/></a>
+    <a href='//instagram.com/inputekno' target='_blank'><i class='fab fa-instagram'/></a>
+    <a href='//www.youtube.com/channel/UC6m267KNI3GovmWLEcsIHdw' target='_blank'><i class='fab fa-youtube'/></a>
+  </footer>
+  <b:loop values='1 to 3' var='l'><div expr:class='&quot;wave wave&quot; + data:l'/></b:loop>
+</div>
+</b:tag>
+<b:else/>
+<!-- Maintenace Mode End -->
+
+<!-- End HTMl-->
+</b:if>
+<!-- End HTMl-->
