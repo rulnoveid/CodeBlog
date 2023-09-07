@@ -98,7 +98,8 @@ function renderProfilePicture() {
 function resetProfilePicture() {
   fileName.innerText = '';
   fileName.classList.remove('show');
-  tweetAvatar.src = 'assets/silhoutte.png';
+  tweetAvatar.src = 'https://cdn.inputekno.com/CodeBlog/fake%20tweet%20generator%20tools/assets/silhoutte.png';
+  // tweetAvatar.src = 'assets/silhoutte.png';
 }
 
 // Render Name in Tweet
